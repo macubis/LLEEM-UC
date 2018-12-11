@@ -844,6 +844,88 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+/*  publicaiones-----*/
+#publicaciones {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+#publicaciones .publi-container .background {
+  min-height: 300px;
+  background: url(../img/mamie.jpg) center top no-repeat;
+  margin-bottom: 10px;
+}
+
+#publicaciones .publi-container .content {
+  background: #f7f7f7;
+}
+
+#publicaciones .publi-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  #publicaciones .publi-container .title {
+    padding-top: 15px;
+  }
+}
+
+#publicaciones .publi-container p {
+  line-height: 26px;
+}
+
+#publicaciones .publi-container p:last-child {
+  margin-bottom: 0;
+}
+
+#publicaciones .publi-container .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#publicaciones .publi-container .icon-box .icon {
+  float: right;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%; 
+  border: 2px solid #2dc997;
+}
+
+#publicaciones .publi-container .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#publicaciones .publi-container .icon-box .title {  
+  margin-left: 0px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#publicaciones .publi-container .icon-box .title a {
+  color: #111;
+}
+
+#publicaciones .publi-container .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/* fin de publicaciones*/
+
+
 /* Contact Section
 --------------------------------*/
 #contact {
