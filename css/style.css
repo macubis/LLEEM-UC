@@ -586,21 +586,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #fff;
+  background: #f7f7f7;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
-
+#services .fila{
+  height: 400px;
+}
+.cajita{
+  height: 200px;
+}
 #services .box {
-  padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  border: 2px solid #fff;
   height: 200px;
   position: relative;
   background: #fafafa;
 }
-
+.fotos_service{
+  width: 349px;
+  height: 250px;
+}
+.fotos_service2{
+  width: 349px;
+  height: 250px;
+}
+.dentro_box{
+  position: relative;
+  left: 1px;
+  text-align: justify;
+  padding: 10px;
+}
 #services .icon {
   position: absolute;
   top: -36px;
@@ -645,6 +662,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #services .title a {
@@ -652,145 +670,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .description {
+  color: #111;
   font-size: 14px;
   line-height: 24px;
-}
-
-/* Call To Action Section
---------------------------------*/
-#call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/laboratorio_mejorado.jpeg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
-}
-
-#call-to-action .cta-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#call-to-action .cta-text {
-  color: #fff;
-}
-
-@media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
-#call-to-action .cta-btn {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
-
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #f7f7f7;
-  padding: 80px 0;
-}
-
-#portfolio #portfolio-wrapper {
-  padding-right: 15px;
-}
-
-#portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 0 45px 0;
-  list-style: none;
-  text-align: center;
-}
-
-#portfolio #portfolio-flters li {
-  cursor: pointer;
-  margin: 0 10px;
-  display: inline-block;
-  padding: 10px 22px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #666666;
-  border-radius: 4px;
-  text-transform: uppercase;
-  background: #fff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-#portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #2dc997;
-  color: #fff;
-}
-
-#portfolio .portfolio-item {
-  position: relative;
-  height: 200px;
-  overflow: hidden !important;
-  margin-bottom: 15px;
-  transition: all 350ms ease;
-  transform: scale(1);
-}
-
-#portfolio .portfolio-item a {
-  display: block;
-  margin-right: 15px;
-}
-
-#portfolio .portfolio-item img {
-  position: relative;
-  top: 0;
-  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details {
-  height: 50px;
-  background: #2dc997;
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  bottom: -50px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#portfolio .portfolio-item .details h4 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  padding: 8px 0 2px 8px;
-  margin: 0;
-}
-
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #fff;
-  font-size: 13px;
-  padding-left: 8px;
-}
-
-#portfolio .portfolio-item:hover .details {
-  bottom: 0;
-}
-
-#portfolio .portfolio-item:hover img {
-  top: -30px;
 }
 
 /* Team Section
@@ -845,50 +727,50 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*  -------
-publicaciones
+curriculum_vitae
 -----*/
-#publicaciones {
+#curriculum_vitae {
   background: #f7f7f7;
   padding: 80px 0;
 }
 
-#publicaciones .publi-container .background {
+#curriculum_vitae .curri-container .background {
   min-height: 300px;
   background: url(../img/mamie.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
-#publicaciones .publi-container .content {
+#curriculum_vitae .curri-container .content {
   background: #f7f7f7;
 }
 
-#publicaciones .publi-container .title {
+#curriculum_vitae .curri-container .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
 
 @media (max-width: 768px) {
-  #publicaciones .publi-container .title {
+  #curriculum_vitae .curri-container .title {
     padding-top: 15px;
   }
 }
 
-#publicaciones .publi-container p {
+#curriculum_vitae .curri-container p {
   line-height: 26px;
 }
 
-#publicaciones .publi-container p:last-child {
+#curriculum_vitae .curri-container p:last-child {
   margin-bottom: 0;
 }
 
-#publicaciones .publi-container .icon-box {
+#curriculum_vitae .curri-container .icon-box {
   background: #f7f7f7; 
   background-size: cover;
   padding: 0 0 14px 0;
 }
 
-#publicaciones .publi-container .icon-box .icon {
+#curriculum_vitae .curri-container .icon-box .icon {
   float: right;
   background: #fff;
   width: 64px;
@@ -902,12 +784,12 @@ publicaciones
   border: 2px solid #2dc997;
 }
 
-#publicaciones .publi-container .icon-box .icon i {
+#curriculum_vitae .curri-container .icon-box .icon i {
   color: #2dc997;
   font-size: 24px;
 }
 
-#publicaciones .publi-container .icon-box .title {  
+#curriculum_vitae .curri-container .icon-box .title {  
   margin-left: 0px;
   font-weight: 500;
   margin-bottom: 5px;
@@ -915,29 +797,93 @@ publicaciones
   text-transform: uppercase;
 }
 
-#publicaciones .publi-container .icon-box .title a {
+#curriculum_vitae .curri-container .icon-box .title a {
   color: #111;
 }
 
-#publicaciones .publi-container .icon-box .description {
+#curriculum_vitae .curri-container .icon-box .description {
   margin-left: 0px;
   line-height: 24px;
   font-size: 14px;
 }
 
-/* fin de publicaciones*/
+/* fin de curriculum_vitae*/
+/*inicio de publication*/
+#publication {
+  text-align: justify;
+}
+#publication .section-publi{
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin: 50px 0px 50px 0px;
+
+}
+#publication .pubi_filas{
+    margin: 0px 20px 20px 20px; 
+}
+a.title_papers{
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #111;
+    line-height: 20px;
+}
+#publication p.description{
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.ultimo-papers{
+  margin-bottom: 40px;
+}
+
+/*   Scientific Meetings 
+--------------------------------*/
 
 
+#meetings {
+  background: #f7f7f7;
+  padding: 50px 0;
+  text-align: justify;
+}
+#meetings p.description{
+    line-height: 20px;
+    font-size: 14px;
+    
+}
+#meetings .meetings-container .content {
+  background: #fff;
+}
+
+#meetings .meetings-container .section-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 30px 0px 30px 0px;
+}
+
+@media (max-width: 768px) {
+  #meetings .meetings-container .title {
+    padding-top: 15px;
+  }
+}
+
+#meetings .meetings-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#meetings .description p{
+  padding: 5px;
+}
 /* Contact Section
 --------------------------------*/
 #contact {
   background: #f7f7f7;
   padding: 80px 0 40px 0;
-}
-
-#contact #google-map {
-  height: 300px;
-  margin-bottom: 20px;
 }
 
 #contact .info {
