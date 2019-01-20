@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
-  padding-right: 30px;
+  padding-right: 23px;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 0 7px 10px 8px;
+  padding: 0 6px 10px 8px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > li {
-  margin-left: 10px;
+  margin-left: 9px;
 }
 
 .nav-menu > li > a:before {
@@ -726,12 +726,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
+.modal-content{
+    text-align: justify;
+}
+.modal-title{
+    font-size: 18px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.modal-description{
+  font-size: 14px;
+}
 
 /*  -------
 curriculum_vitae
 -----*/
 #curriculum_vitae {
-  background: #f7f7f7;
+  background: #fff;
   padding: 80px 0;
 }
 
@@ -742,7 +755,7 @@ curriculum_vitae
 }
 
 #curriculum_vitae .curri-container .content {
-  background: #f7f7f7;
+  background: #fff;
 }
 
 #curriculum_vitae .curri-container .title {
@@ -766,7 +779,7 @@ curriculum_vitae
 }
 
 #curriculum_vitae .curri-container .icon-box {
-  background: #f7f7f7; 
+  background: #fff; 
   background-size: cover;
   padding: 0 0 14px 0;
 }
@@ -811,7 +824,9 @@ curriculum_vitae
 /* fin de curriculum_vitae*/
 /*inicio de publication*/
 #publication {
+  background: #f7f7f7;
   text-align: justify;
+  padding: 20px 0px;
 }
 #publication .section-publi{
     font-size: 32px;

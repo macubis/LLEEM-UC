@@ -213,7 +213,7 @@
         </p>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="member">
               <div class="pic"><img src="img/mamie_sancy.jpg" alt="foto de mamie sancy"></div>
               <h4>Mamie Sancy</h4>
@@ -223,11 +223,14 @@
               <div class="social">
                 <a href="https://scholar.google.cl/citations?user=79bcdT8AAAAJ&hl=es&oi=ao"><i class="fa fa-google-plus"></i></a>
                 <a href="https://www.linkedin.com/in/mamie-sancy-5b453227/"><i class="fa fa-linkedin"></i></a>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-mamie">
+                CV
+                </button> 
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
+              <!--MOdal de CV-->
+          <div class="col-lg-4 col-md-12">
             <div class="member">
               <div class="pic"><img src="img/carola_martinez.jpg" alt="foto de carola martinez"></div>
               <h4>Carola Martinez</h4>
@@ -237,11 +240,13 @@
               <div class="social">
                 <a href="https://scholar.google.cl/citations?user=1YL9588AAAAJ&hl=es&oi=ao"><i class="fa fa-google-plus"></i></a>
                 <a href="https://www.linkedin.com/in/carola-martinez-ugalde-6358323a/"><i class="fa fa-linkedin"></i></a>
+                <button type="button" class="btn" data-toggle="modal" data-target="#modal-carola">
+                CV
+                </button> 
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-12">
             <div class="member">
               <div class="pic"><img src="img/carolina_guerra-2.jpg" alt=""></div>
               <h4>Carolina Guerra</h4>
@@ -254,8 +259,22 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/carlos_sepulveda.jpg" alt=""></div>
+              <h4>Mariela Cubillos</h4>
+              <span>Civil Constructor UC
+              <!-- Constructor Civil UC-->
+              </span>
+              <div class="social">
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
             <div class="member">
               <div class="pic"><img src="img/carlos_sepulveda.jpg" alt=""></div>
               <h4>Carlos Sepulveda</h4>
@@ -268,51 +287,80 @@
               </div>
             </div>
           </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ==============
-      curriculum vitae
-      =================-->
-     <section id="curriculum_vitae">
-      <div class="container">
-        <div class="row curri-container">
-          <div class="col-lg-6 background wow fadeInUp"></div>
-            <div class="col-lg-6 content order-lg-1 order-2">
-              <h2 class="title">Curriculum Vitae</h2>
-            <p>
-              Ph.D Mamie Sancy
-            </p>
-            <div class="icon-box wow fadeInUp">
-              <h4 class="title"><a href="">Positions</a></h4>
-              <p class="description">
-              2015-present Assistant professor, Pontificia Universidad Católica de Chile</br>
-              2010-2015 Researcher, Chilean Air Force</p>
-            </div>
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <h4 class="title"><a href="">Education</a></h4>
-              <p class="description">
-              2006  PhD in Chemistry Physic and Analytic Chemistry, Université Pierre et Marie Curie (Paris VI), France.</br>
-              2006  PhD in Engineering, Materials Science, Universidad de Santiago de Chile.</br>
-              2001  Undergraduate in Chemistry, Universidad de Santiago de Chile. Investigacion de nuevos aleaciones, para el uso de protesis e implantes</p>
-            </div>
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <h4 class="title"><a href="">Postdoc position</a></h4>
-              <p class="description">
-              2009-2010 Post-doc in Electrocatalysis Lab, Universidad de Santiago de Chile, Chile (Fondecyt postdoctorado 3095011).</br>
-              2008  Post-doc in LISE UPR 15, Université Pierre et Marie Curie (Paris VI), France.</br>
-              2007  Post-doc in Electrocatalysis Lab, Universidad de Santiago de Chile, Chile. Espectroscopia de Impedancia Electroquimica, Curvas de polarizacion</p>
+          <div class="col-lg-4 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/carlos_sepulveda.jpg" alt=""></div>
+              <h4>Carlos Galarce</h4>
+              <span>Civil Constructor UC
+              <!-- Constructor Civil UC-->
+              </span>
+              <div class="social">
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- #about -->
-    <!--=======================
-        publicaciones
-    ============================-->
+    </section>
+      <!--MOdal de CV--> 
+    <div class="modal fade" id="modal-mamie" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Ph.D Mamie Sancy</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="modal-title">Positions</h5>
+            <p class="modal-description">2015-present Assistant professor UC</br>
+               2010-2015 Researcher, Chilean Air Force</p>
+            <h5 class="modal-title">Education</h5>
+            <p class="modal-description"> 2006  <b>PhD in Chemistry Physic and Analytic Chemistry</b>, Université Pierre et Marie Curie (Paris VI), France.</br>
+              2006  <b>PhD in Engineering, Materials Science</b>, Universidad de Santiago de Chile.</br>
+              2001  <b>Undergraduate in Chemistry</b>, Universidad de Santiago de Chile. Investigacion de nuevos aleaciones, para el uso de protesis e implantes</p>
+            <h5 class="modal-title">Postdoc position</h5>
+            <p class="modal-description">2009-2010 <b>Post-doc in Electrocatalysis Lab</b>, Universidad de Santiago de Chile, Chile (Fondecyt postdoctorado 3095011).</br>
+            2008  <b>Post-doc in LISE UPR 15</b>, Université Pierre et Marie Curie (Paris VI), France.</br>
+            2007  <b>Post-doc in Electrocatalysis Lab</b>, Universidad de Santiago de Chile, Chile. Espectroscopia de Impedancia Electroquimica, Curvas de polarizacion</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--modal carola-->
+    <div class="modal fade" id="modal-carola" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Ph.D Carola Martinez</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <h5 class="modal-title">Positions</h5>
+              <p class="modal-description">2016 a la Fecha <b>Profesor Asignatura Tecnología de los Materiales</b>, FSM</br>
+              2011-2012 <b>Profesor Ayudante de Laboratorio Metalurgia Física</b>, USACH</p>
+              <h5 class="modal-title">Education</h5>
+              <p class="modal-description">2013 <b>Doctor en Ciencias de la Ingeniería m/ Ciencias e Ingeniería de los Materiales </b> Universidad de Santiago de Chile<br>
+              2007 <b>Químico Industrial Licenciado en Ciencias m/ Química</b> Universidad Tecnológica Metropolitana</p>
+              <h5 class="modal-title">Postdoc position</h5>
+              <p class="modal-description">2017-a la Fecha <b>Investigadora Asistente Proyecto FONDECYT Regular nº 1160604</b>, PUC<br>
+              2016- 2018 <b>Investigadora Asistente Proyecto INNOVACORFO 13BPC3-19083<b>, PUCV<br>
+              2013- 2016 <b>Investigadora Responsable Proyecto FONDECYT Postdoctoral n° 3140207</b>, U. Adolfo Ibañez y PUCV</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--publicaiones primero-->
     <section id="publication">
       <div class="container">
         <div class="section-header">
@@ -360,6 +408,44 @@
         </div>
       </div>
     </section>
+
+    <!-- ==============
+      curriculum vitae
+      =================-->
+     <section id="curriculum_vitae">
+      <div class="container">
+        <div class="row curri-container">
+          <div class="col-lg-6 background wow fadeInUp"></div>
+            <div class="col-lg-6 content order-lg-1 order-2">
+              <h2 class="title">Grants</h2>
+            <div class="icon-box wow fadeInUp">
+              <p class="description">
+              2018-2020 CONICYT-PCI Ecos Sud-Conicyt C17E07 <b>“Corrosion of Ti Based Alloys used for Biomedical Applications”.</b> PI from Chile: Maritza Páez (USACH), Co-I from Chile: Mamié Sancy (UC), PI from France: Michel Cassir (ENSCP Paris tech), Co-I from France: Armelle Ringuede (ENSCP Paris tech)<br>
+              2016-2019 Fondecyt Regular 1160604 “Corrosion of Ti-6Al-4V alloy used for Biomedical Applications“. PI: Mamie Sancy. Co-I: Magdalena Walczak (UC) and Claudio Aguilar (USM)<br>
+              2016-2017 AFOSR FA9550-16-1-0063“Tri-Lateral Defense Science Partnering to Investigate Fundamental Bio-Electro-Chemical Interaction Mechanisms of Aerospace Materials”. PI: Nelson Vejar. Co-I: Mamié Sancy.<br>
+              2016-2018 CONICYT-PIA ANILLO ACT 1412 "Superficies funcionalizadas: protección contra la corrosióny biocorrosión". Director: Maritza Páez (USACH), Co-I: Maria Victoria Encinas (USACH), Jenny Blamey (Fundación Biociencia), Francisco Melo (USACH), Manuel Azocar (USACH), Mamié Sancy (UC) and José Zagal (USACH). 
+              2014-2016 AFOSR FA9550-14-1-0407“Effects of Microbial Diversity on Metallic Alloys”, PI: Jenny Blamey (Fundación Biociencia). Co-I: Mamié Sancy (UC). 
+              2012-2016      Fondecyt Regular 1121085 “Understanding Galvanic Corrosion of Aluminum Alloys for Aerospace Applications“. PI: Mamie Sancy (FACH) and Co-I: Maritza Páez (USACH) and José Zagal (USACH).  
+              2006  PhD in Chemistry Physic and Analytic Chemistry, Université Pierre et Marie Curie (Paris VI), France.</br>
+              2006  PhD in Engineering, Materials Science, Universidad de Santiago de Chile.</br>
+              2001  Undergraduate in Chemistry, Universidad de Santiago de Chile. Investigacion de nuevos aleaciones, para el uso de protesis e implantes</p>
+            </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <h4 class="title"><a href="">Postdoc position</a></h4>
+              <p class="description">
+              2009-2010 Post-doc in Electrocatalysis Lab, Universidad de Santiago de Chile, Chile (Fondecyt postdoctorado 3095011).</br>
+              2008  Post-doc in LISE UPR 15, Université Pierre et Marie Curie (Paris VI), France.</br>
+              2007  Post-doc in Electrocatalysis Lab, Universidad de Santiago de Chile, Chile. Espectroscopia de Impedancia Electroquimica, Curvas de polarizacion</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+    <!--=======================
+        publicaciones
+    ============================-->
+    
 
     <!--=======================
         Scientific Meetings 
