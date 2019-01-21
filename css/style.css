@@ -732,12 +732,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 .modal-title{
     font-size: 18px;
     color: #111;
-    text-transform: uppercase;
+   
     font-weight: 700;
     margin-bottom: 5px;
 }
 .modal-description{
   font-size: 14px;
+}
+.boton{
+  background: rgba(52, 59, 64, 0.9);
+  color:  #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.modal-link{
+  padding: 10px 150px;
 }
 
 /*  -------
