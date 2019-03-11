@@ -925,12 +925,59 @@ curriculum_mamie
   font-weight: bolder;
 }
 /* fin carola*/
+/*inicio de carlos */
+#curriculum_carlos {
+  background: #fff;
+  padding: 98px 0px;
+}
+#curriculum_carlos .contenedor .content {
+  background: #fff;
+  text-align: justify;
+}
+#curriculum_carlos .contenedor .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  #curriculum_carlos .contenedor .title {
+    padding-top: 15px;
+  }
+}
+#curriculum_carlos .contenedor p {
+  line-height: 26px;
+  text-align: justify;
+  font-size: 16px;
+}
 
+#curriculum_carlos .contenedor .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 14px 0;
+}
 
+#curriculum_carlos .contenedor .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
 
+#curriculum_carlos .contenedor .icon-box .title a {
+  color: #111;
+}
 
-
-
+#curriculum_carlos .contenedor .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#curriculum_carlos .contenedor a {
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: bolder;
+}
+/*fin de carlos*/
 /* Inicio de curriculum_carolina*/
 #curriculum_carolina {
   background: #fff;
@@ -985,8 +1032,112 @@ curriculum_mamie
 }
 
 /* fin de curriculum_carolina*/
-/* fin de curriculum_*/
 
+/* Inicio de curriculum_javiera*/
+#curriculum_javiera {
+  background: #fff;
+  padding: 98px 0px;
+}
+#curriculum_javiera .contenedor .content {
+  background: #fff;
+  text-align: justify;
+}
+#curriculum_javiera .contenedor .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  #curriculum_javiera .contenedor .title {
+    padding-top: 15px;
+  }
+}
+#curriculum_javiera .contenedor p {
+  line-height: 26px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#curriculum_javiera .contenedor .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 14px 0;
+}
+
+#curriculum_javiera .contenedor .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#curriculum_javiera .contenedor .icon-box .title a {
+  color: #111;
+}
+
+#curriculum_javiera .contenedor .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#curriculum_javiera .contenedor a {
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: bolder;
+}
+/* fin de curriculum_*/
+/* inicio de curriculum mariela */
+#curriculum_mariela {
+  background: #fff;
+  padding: 98px 0px;
+}
+#curriculum_mariela .contenedor .content {
+  background: #fff;
+  text-align: justify;
+}
+#curriculum_mariela .contenedor .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  #curriculum_mariela .contenedor .title {
+    padding-top: 15px;
+  }
+}
+#curriculum_mariela .contenedor p {
+  line-height: 26px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#curriculum_mariela .contenedor .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 14px 0;
+}
+
+#curriculum_mariela .contenedor .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#curriculum_mariela .contenedor .icon-box .title a {
+  color: #111;
+}
+
+#curriculum_mariela .contenedor .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#curriculum_mariela .contenedor a {
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: bolder;
+}
 
 
 
