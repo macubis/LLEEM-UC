@@ -859,6 +859,56 @@ curriculum_mamie
   line-height: 24px;
   font-size: 14px;
 }
+/* Inicio de curriculum_carola*/
+#curriculum_carola {
+  background: #fff;
+  padding: 98px 0px;
+}
+#curriculum_carola .contenedor .content {
+  background: #fff;
+  text-align: justify;
+}
+#curriculum_carola .contenedor .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+@media (max-width: 768px) {
+  #curriculum_carola .contenedor .title {
+    padding-top: 15px;
+  }
+}
+#curriculum_carola .contenedor p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#curriculum_carola .contenedor .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 14px 0;
+}
+
+#curriculum_carola .contenedor .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#curriculum_carola .contenedor .icon-box .title a {
+  color: #111;
+}
+
+#curriculum_carola .contenedor .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+/* fin carola*/
+
+
+
+
+
 
 /* Inicio de curriculum_carolina*/
 #curriculum_carolina {
