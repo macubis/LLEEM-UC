@@ -903,6 +903,13 @@ curriculum_mamie
   line-height: 24px;
   font-size: 14px;
 }
+#curriculum_carola .contenedor a {
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: bolder;
+}
 /* fin carola*/
 
 
