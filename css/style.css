@@ -814,85 +814,109 @@ a.boton{
 }
 
 /*  -------
-curriculum_vitae
+curriculum_mamie
 -----*/
-#curriculum_vitae {
+#curriculum_mamie {
   background: #fff;
-  padding: 167px 0px;
+  padding: 98px 0px;
 }
-
-#curriculum_vitae .curri-container .background {
-  min-height: 300px;
-  background: url(../img/mamie.jpg) center top no-repeat;
-  margin-bottom: 10px;
-}
-
-#curriculum_vitae .curri-container .content {
+#curriculum_mamie .contenedor .content {
   background: #fff;
+  text-align: justify;
 }
-
-#curriculum_vitae .curri-container .title {
+#curriculum_mamie .contenedor .title {
   color: #333;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
 }
-
 @media (max-width: 768px) {
-  #curriculum_vitae .curri-container .title {
+  #curriculum_mamie .contenedor .title {
     padding-top: 15px;
   }
 }
-
-#curriculum_vitae .curri-container p {
+#curriculum_mamie .contenedor p {
   line-height: 26px;
+  text-align: justify;
 }
 
-#curriculum_vitae .curri-container p:last-child {
-  margin-bottom: 0;
-}
-
-#curriculum_vitae .curri-container .icon-box {
+#curriculum_mamie .contenedor .icon-box {
   background: #fff; 
   background-size: cover;
   padding: 0 0 14px 0;
 }
 
-#curriculum_vitae .curri-container .icon-box .icon {
-  float: right;
-  background: #fff;
-  width: 64px;
-  height: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 50%; 
-  border: 2px solid #2dc997;
-}
-
-#curriculum_vitae .curri-container .icon-box .icon i {
+#curriculum_mamie .contenedor .icon-box .icon i {
   color: #2dc997;
   font-size: 24px;
 }
 
-#curriculum_vitae .curri-container .icon-box .title {  
-  margin-left: 0px;
-  font-weight: 500;
-  margin-bottom: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-#curriculum_vitae .curri-container .icon-box .title a {
+#curriculum_mamie .contenedor .icon-box .title a {
   color: #111;
 }
 
-#curriculum_vitae .curri-container .icon-box .description {
+#curriculum_mamie .contenedor .icon-box .description {
   margin-left: 0px;
   line-height: 24px;
   font-size: 14px;
 }
+
+/* Inicio de curriculum_carolina*/
+#curriculum_carolina {
+  background: #fff;
+  padding: 98px 0px;
+}
+#curriculum_carolina .contenedor .content {
+  background: #fff;
+  text-align: justify;
+}
+#curriculum_carolina .contenedor .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+@media (max-width: 768px) {
+  #curriculum_carolina .contenedor .title {
+    padding-top: 15px;
+  }
+}
+#curriculum_carolina .contenedor p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+#curriculum_carolina .contenedor .icon-box {
+  background: #fff; 
+  background-size: cover;
+  padding: 0 0 14px 0;
+}
+
+#curriculum_carolina .contenedor .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#curriculum_carolina .contenedor .icon-box .title a {
+  color: #111;
+}
+
+#curriculum_carolina .contenedor .icon-box .description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 14px;
+}
+#curriculum_carolina .contenedor a {
+  color: #666666;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: bolder;
+}
+
+/* fin de curriculum_carolina*/
+/* fin de curriculum_*/
+
+
+
 
 /* fin de curriculum_vitae*/
 /*inicio de publication*/
@@ -1088,4 +1112,9 @@ a.title_papers{
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+/*curriculum de todas las personas juntos*/
+.foto-curri{
+  height: 250px;
+  width: 250px;
 }
