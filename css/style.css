@@ -457,11 +457,22 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav-toggle i {
   color: #fff;
 }
+@media (min-width: 320px) {
+  #mobile-nav-toggle {
+    display: inline;
+    margin: 34px 30px 0 0;
+  }
+}
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #mobile-nav-toggle {
     display: inline;
     margin: 34px 160px 0 0;
+  }
+}
+@media (min-width: 1000px) {
+  #mobile-nav-toggle {
+    display: none;
   }
 }
 
@@ -657,6 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f7f7f7;
   background-size: cover;
   padding: 80px 0 60px 0;
+  justify-content: center;
 }
 #services .fila{
   height: 400px;
@@ -677,8 +689,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 250px;
 }
 .fotos_service2{
-  width: 349px;
-  height: 250px;
+  width: 342px;
+  height: 259px;
 }
 .dentro_box{
   position: relative;
@@ -743,6 +755,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  .fotos_service2{
+    width: 280px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fotos_service2{
+    width: 235px;
+    height: 200px;
+  }
+}
+
 /* Team Section
 --------------------------------*/
 #team {
@@ -793,19 +818,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
-.modal-content{
-    text-align: justify;
+
+@media (max-width: 768px) {
+  .foto_team {
+    width: 60%;
+  }
 }
-.modal-title{
-    font-size: 18px;
-    color: #111;
-   
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-.modal-description{
-  font-size: 14px;
-}
+
 a.boton{
   height: 200px;
   width: 50px;
@@ -816,10 +835,6 @@ a.boton{
   padding: 10px;
   border-radius: 2px;
 }
-.modal-link{
-  padding: 10px 150px;
-}
-
 /*  -------
 curriculum_mamie
 -----*/
