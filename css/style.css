@@ -570,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 .section-header .section-description {
@@ -665,15 +665,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: #f7f7f7;
   background-size: cover;
-  padding: 80px 0 60px 0;
+  padding: 80px 0 50px 0;
   justify-content: center;
 }
-#services .fila{
-  height: 400px;
-}
-.cajita{
-  height: 200px;
-}
+
 #services .box {
   margin-bottom: 50px;
   text-align: center;
@@ -739,7 +734,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -772,7 +766,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   padding: 80px 0 60px 0;
 }
-
+#team .integrantes{
+  padding: 10px 0px 20px 0px;
+}
 #team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -781,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 280px;
 }
 
 #team .member .pic img {
@@ -821,7 +817,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .foto_team {
     width: 60%;
   }
-}
+  #team .member .pic {
+    height: 190px;
+  }
 
 a.boton{
   height: 200px;
@@ -829,7 +827,7 @@ a.boton{
   background: rgba(52, 59, 64, 0.9);
   color:  #fff !important;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 10px;
   border-radius: 2px;
 }
